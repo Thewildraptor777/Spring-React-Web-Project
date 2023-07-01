@@ -1,13 +1,13 @@
-package com.raptor.ReactWebpage;
+package com.raptor.webpage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactWebpageApplication {
+public class App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReactWebpageApplication.class, args);
+		SpringApplication.run(App.class, args);
 	}
 
 }

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.raptor</groupId>
-	<artifactId>React-Webpage</artifactId>
+	<artifactId>webpage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>React-Webpage</name>
+	<name>backend</name>
 	<description>Spring-React</description>
 	<properties>
 		<java.version>20</java.version>
