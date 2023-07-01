@@ -16,7 +16,7 @@ function Component() {
   
   return (
     <div>
-      {JSON.stringify(data)}  
+      {data}  
     </div>  
   );
 }
