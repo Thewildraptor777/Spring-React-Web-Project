@@ -6,13 +6,13 @@ function Component() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/my-variable')
+    axios.get('/api/my-variable')
       .then(response => {
         setData(response.data);
       })
   }, []);
 
-  if (!data) return <div>Loading...</div>
+  if (!data) return <div>...</div>
   
   return (
     <div>
@@ -23,8 +23,20 @@ function Component() {
 
 function App() {
   return (
-    <Component />  
+    <>
+    <section>
+    
+    </section>
+    <section>
+    
+    </section>
+    <section>
+    
+    </section>
+    <Component />
+    <p>hu</p>
+    </> 
   );
-}  
+}
 
 export default App;
